@@ -60,14 +60,14 @@
     },
 
     {
-      "id": "OEJN_1_CTR",
+      "id": "OEJN_W_CTR",
       "parent_id": "OEJD_1_CTR",
-      "controlled_by": ["OEJN_1_CTR"]
+      "controlled_by": ["OEJN_W_CTR"]
     },
 
     {
       "id": "OEJN_APP",
-      "parent_id": "OEJN_1_CTR",
+      "parent_id": "OEJN_W_CTR",
       "controlled_by": ["OEJN_APP"]
     },
     {
@@ -101,7 +101,11 @@
       "parent_id": "OEJN_APP",
       "controlled_by": ["OEJN_C_TWR"]
     },
-
+    {
+      "id": "OEJN_E_RMP",
+      "parent_id": "OEJN_E_GND",
+      "controlled_by": ["OEJN_E_RMP"]
+    },
     {
       "id": "OEJN_E_GND",
       "parent_id": "OEJN_W_TWR",

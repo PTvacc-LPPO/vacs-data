@@ -99,12 +99,12 @@
     },
 
     {
-      "id": "OEJN_1_CTR",
+      "id": "OEJN_W_CTR",
       "prefixes": ["OEJN"],
       "frequency": "132.300",
       "facility_type": "CTR",
       "profile_id": "OEJN",
-      "default_call_sources": ["OEJN_1_CTR"]
+      "default_call_sources": ["OEJN_W_CTR"]
     },
 
     {
@@ -188,6 +188,14 @@
       "facility_type": "GND",
       "profile_id": "OEJN",
       "default_call_sources": ["OEJN_C_GND"]
+    },
+    {
+      "id": "OEJN_E_RMP",
+      "prefixes": ["OEJN"],
+      "frequency": "121.750",
+      "facility_type": "RMP",
+      "profile_id": "OEJN",
+      "default_call_sources": ["OEJN_E_RMP"]
     },
     {
       "id": "OEJN_DEL",
