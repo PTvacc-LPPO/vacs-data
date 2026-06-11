@@ -1,0 +1,285 @@
+{
+  "id": "LPPO",
+  "type": "Geo",
+  "direction": "row",
+  "height": "100%",
+  "width": "100%",
+  "gap": 2,
+  "children": [
+    {
+      "direction": "col",
+      "padding_top": 13,
+      "padding_left": 2,
+      "children": [
+        {
+          "label": ["New York", "ZWY"],
+          "size": 8,
+          "page": {
+            "rows": 2,
+            "keys": [
+              {
+                "label": ["LOVV N5"],
+                "station_id": "LOVV_N5"
+              },
+              {
+                "label": ["LOVV N6"],
+                "station_id": "LOVV_N6"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "direction": "col",
+      "gap": 0.75,
+      "padding_top": 2,
+      "children": [
+        {
+          "direction": "row",
+          "gap": 2,
+          "children": [
+            {
+              "label": ["Gander", "CZQO"],
+              "size": 8,
+              "page": {
+                "rows": 2,
+                "keys": [
+                  {
+                    "label": ["Gander","Oceanic"],
+                    "station_id": "NAT_BBx"
+                  },
+                  {
+                    "label": ["Gander","Delivery"],
+                    "station_id": "Gander_DEL"
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["NAT", "BBX"],
+              "size": 8,
+              "station_id": "NAT_BBx"
+            },
+            {
+              "label": ["Shanwick", "EGGX"],
+              "size": 8,
+              "page": {
+                "rows": 2,
+                "keys": [
+                  {
+                    "label": ["LOVV S5"],
+                    "station_id": "LOVV_S5"
+                  },
+                  {
+                    "label": ["LOVV S6"],
+                    "station_id": "LOVV_S6"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "gap": 2,
+          "padding_top": 2,
+          "padding": 0.5,
+          "justify_content": "center",
+          "children": [
+            {
+              "label": ["Aerodromes"],
+              "color": "steel",
+              "size": 8,
+              "page": {
+                "rows": 5,
+                "keys": [
+                  {
+                    "label": ["FLW APP"],
+                    "station_id": ""
+                  },
+                  {
+                    "label": [""]
+                  },
+                  {
+                    "label": [""]
+                  },
+                  {
+                    "label": [""]
+                  },
+                  {
+                    "label": ["Corvo","AFISO"],
+                    "station_id": ""
+                  },
+                  {
+                    "label": ["HOR APP"],
+                    "station_id": ""
+                  },
+                  {
+                    "label": ["HOR TWR"],
+                    "station_id": ""
+                  },
+                  {
+                    "label": [""]
+                  },
+                  {
+                    "label": [""]
+                  },
+                  {
+                    "label": ["Pico", "AFISO"],
+                    "station_id": ""
+                  },
+                  {
+                    "label": ["TER APP"],
+                    "station_id": ""
+                  },
+                  {
+                    "label": ["TER TWR"],
+                    "station_id": ""
+                  },
+                  {
+                    "label": ["TER GND"],
+                    "station_id": ""
+                  },
+                  {
+                    "label": ["TER DLV"],
+                    "station_id": ""
+                  },
+                  {
+                    "label": ["São Jorge", "AFISO"],
+                    "station_id": ""
+                  },
+                  {
+                    "label": ["PDL APP"],
+                    "station_id": ""
+                  },
+                  {
+                    "label": ["PDL TWR"],
+                    "station_id": ""
+                  },
+                  {
+                    "label": ["SMA TWR"],
+                    "station_id": ""
+                  },
+                  {
+                    "label": [""]
+                  },
+                  {
+                    "label": ["Graciosa", "AFISO"],
+                    "station_id": ""
+                  }
+                ]
+              }
+            },
+            {
+              "label": ["Santa Maria", "ACC"],
+              "color": "steel",
+              "size": 8,
+              "page": {
+                "rows": 2,
+                "keys": [
+                  {
+                    "label": ["SMA","Oceanic"],
+                    "station_id": ""
+                  },
+                  {
+                    "label": ["SMA","Radar"],
+                    "station_id": ""
+                  },
+                  {
+                    "label": ["SMA","OCC", "Delivery"],
+                    "station_id": ""
+                  },
+                  {
+                    "label": ["SMA","TMA", "Trial"],
+                    "station_id": ""
+                  },
+                  {
+                    "label": ["SMA","OCC 285+", "Trial"],
+                    "station_id": ""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "direction": "row",
+          "gap": 2,
+          "padding_top": 1.5,
+          "justify_content": "space-between",
+          "children": [
+           {
+              "label": ["Piarco", "TTPx","N/A"],
+              "size": 8,
+              "station_id": ""
+            },
+            {
+              "label": ["Sal", "GSVC","N/A"],
+              "size": 8,
+              "station_id": ""
+            }
+          ]
+        }
+      ]
+     },   
+    {
+      "direction": "col",
+      "padding_top": 3,
+      "gap": 2,
+      "children": [
+        {
+          "label": ["Madrid", "LECM","N/A"],
+          "size": 8,
+          "station_id": ""
+        },
+        {
+          "label": ["Lisboa", "LPPC"],
+          "size": 8,
+          "page": {
+            "rows": 3,
+            "keys": [
+              {
+                "label": ["West", "Upper"],
+                "station_id": ""
+              },
+              {
+                "label": ["West", "Lower"],
+                "station_id": ""
+              },
+              {
+                "label": ["Madeira"],
+                "station_id": ""
+              },
+              {
+                "label": ["North", "Lower"],
+                "station_id": ""
+              },
+              {
+                "label": ["Centre", "Lower"],
+                "station_id": ""
+              },
+              {
+                "label": ["South"],
+                "station_id": ""
+              },
+              {
+                "label": ["North", "Upper"],
+                "station_id": ""
+              },
+              {
+                "label": ["Centre", "Upper"],
+                "station_id": ""
+              }
+            ]
+          }
+        },
+        {
+          "label": ["Canaries", "GCCx","N/A"],
+          "size": 8,
+          "station_id": ""
+        }
+      ]
+    }
+  ]
+}

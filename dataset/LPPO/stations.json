@@ -1,0 +1,24 @@
+{
+  "stations": [
+    {
+      "id": "CVU_FIZ",
+      "controlled_by": ["LPCR_I_TWR"],
+      "parent_id": ["LPFL_APP"]
+    },
+    {
+      "id": "PIX_FIZ",
+      "controlled_by": ["LPPI_I_TWR"],
+      "parent_id": ["LPHR_APP"]
+    },
+    {
+      "id": "SJZ_FIZ",
+      "controlled_by": ["LPSJ_I_TWR"],
+      "parent_id": ["LPHR_APP"]
+    },
+    {
+      "id": "GRW_FIZ",
+      "controlled_by": ["LPGR_I_TWR"],
+      "parent_id": ["LPLA_APP"]
+    }
+  ]
+}
