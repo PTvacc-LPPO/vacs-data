@@ -10,22 +10,120 @@
       "direction": "col",
       "padding_top": 13,
       "padding_left": 2,
+      "gap":6.5,
       "children": [
         {
           "label": ["New York", "ZWY"],
           "size": 8,
           "page": {
-            "rows": 2,
+            "rows": 6,
             "keys": [
               {
-                "label": ["LOVV N5"],
-                "station_id": "LOVV_N5"
+                "label": ["JOBOC", "65"],
+                "station_id": "JOBOC"
               },
               {
-                "label": ["LOVV N6"],
-                "station_id": "LOVV_N6"
+                "label": ["OHRYN", "85"],
+                "station_id": "OHRYN"
+              },
+              {
+                "label": ["ATLANTIC", "86"],
+                "station_id": "ATLANTIC"
+              },
+              {
+                "label": ["PAEPR", "82"],
+                "station_id": "PAEPR"
+              },
+              {
+                "label": ["HANRI", "83"],
+                "station_id": "HANRI"
+              },
+              {
+                "label": []
+              },
+              {
+                "label": ["CHAMP", "87", "High"],
+                "station_id": "CHAMP_H"
+              },
+              {
+                "label": ["CHAMP", "87", "Low"],
+                "station_id": "CHAMP_L"
+              },
+              {
+                "label": ["BACUS", "88", "High"],
+                "station_id": "BACUS_H"
+              },
+              {
+                "label": ["BACUS", "88", "Low"],
+                "station_id": "BACUS_L"
+              },
+              {
+                "label": ["GRATX", "90", "High"],
+                "station_id": "GRATX_H"
+              },
+              {
+                "label": ["GRATX", "90", "Low"],
+                "station_id": "GRATX_L"
+              },
+              {
+                "label": []
+              },
+              {
+                "label": ["COCOA", "80"],
+                "station_id": "COCOA"
+              },
+              {
+                "label": ["HILDY", "81"],
+                "station_id": "HILDY"
+              },
+              {
+                "label": ["KRAFT", "89", "High"],
+                "station_id": "KRAFT_H"
+              },
+              {
+                "label": ["KRAFT", "89", "Low"],
+                "station_id": "KRAFT_L"
+              },
+              {
+                "label": []
+              },
+              {
+                "label": ["MERCURY", "21-24", "High"],
+                "station_id": "MERCURY_H"
+              },
+              {
+                "label": ["MERCURY", "21-24", "Low"],
+                "station_id": "MERCURY_L"
+              },
+              {
+                "label": ["GEMINI", "18-20", "High"],
+                "station_id": "GEMINI_H"
+              },
+              {
+                "label": ["GEMINI", "18-20", "Low"],
+                "station_id": "GEMINI_L"
+              },
+              {
+                "label": ["APOLLO", "16-17", "High"],
+                "station_id": "APOLLO_H"
+              },
+              {
+                "label": ["APOLLO", "16-17", "Low"],
+                "station_id": "APOLLO_L"
               }
             ]
+          }
+        },
+        {
+          "label": ["ONL", "DA"],
+          "size":4,
+          "page": {
+            "rows": 1,
+            "client_page": {
+              "include": ["LP*","LECM*","NAT*","EGGX*","CZQ*","NY_*"],
+              "frequencies": "ShowAll",
+              "grouping": "FirAndIcao"
+            }
           }
         }
       ]
@@ -47,7 +145,7 @@
                 "keys": [
                   {
                     "label": ["Gander","Oceanic"],
-                    "station_id": "NAT_BBx"
+                    "station_id": "Gander"
                   },
                   {
                     "label": ["Gander","Delivery"],
@@ -68,12 +166,12 @@
                 "rows": 2,
                 "keys": [
                   {
-                    "label": ["LOVV S5"],
-                    "station_id": "LOVV_S5"
+                    "label": ["Shanwick","Oceanic"],
+                    "station_id": "Shanwick"
                   },
                   {
-                    "label": ["LOVV S6"],
-                    "station_id": "LOVV_S6"
+                    "label": ["Shanwick","Delivery"],
+                    "station_id": "Shanwick_DEL"
                   }
                 ]
               }
@@ -250,35 +348,35 @@
             "keys": [
               {
                 "label": ["West", "Upper"],
-                "station_id": ""
+                "station_id": "LPPC_WU_CTR"
               },
               {
                 "label": ["West", "Lower"],
-                "station_id": ""
+                "station_id": "LPPC_W_CTR"
               },
               {
                 "label": ["Madeira"],
-                "station_id": ""
-              },
-              {
-                "label": ["North", "Lower"],
-                "station_id": ""
-              },
-              {
-                "label": ["Centre", "Lower"],
-                "station_id": ""
-              },
-              {
-                "label": ["South"],
-                "station_id": ""
+                "station_id": "LPPC_I_CTR"
               },
               {
                 "label": ["North", "Upper"],
-                "station_id": ""
+                "station_id": "LPPC_NU_CTR"
+              },
+              {
+                "label": ["North", "Lower"],
+                "station_id": "LPPO_N_CTR"
+              },
+              {
+                "label": ["South"],
+                "station_id": "LPPC_S_CTR"
               },
               {
                 "label": ["Centre", "Upper"],
-                "station_id": ""
+                "station_id": "LPPC_CU_CTR"
+              },
+              {
+                "label": ["Centre", "Lower"],
+                "station_id": "LPPC_C_CTR"
               }
             ]
           }
