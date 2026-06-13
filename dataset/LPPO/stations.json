@@ -21,7 +21,7 @@
       "parent_id": ["LPLA_APP"]
     },
     {
-      "id": "LPLA_DLV",
+      "id": "LPLA_DV",
       "controlled_by": ["LPLA_DEL"],
       "parent_id": ["LPLA_GND"]
     },
@@ -37,8 +37,8 @@
     },
     {
       "id": "LPLA_APP",
-      "controlled_by": ["LPLA_APP"],
-      "parent_id": ["LPHR_APP", "LPPD_APP", "LPPO_TMA_CTR"]
+      "controlled_by": ["LPLA_APP","LPHR_APP", "LPPD_APP"],
+      "parent_id": ["LPPO_TMA_CTR"]
     },
     {
       "id": "LPAZ_TWR",
@@ -52,7 +52,7 @@
     },
     {
       "id": "LPPD_APP",
-      "controlled_by": ["LPLA_APP"],
+      "controlled_by": ["LPPD_APP"],
       "parent_id": ["LPPO_TMA_CTR"]
     },
     {
