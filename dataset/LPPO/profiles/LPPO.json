@@ -10,7 +10,7 @@
       "direction": "col",
       "padding_top": 13,
       "padding_left": 2,
-      "gap":6.5,
+      "gap": 6.5,
       "children": [
         {
           "label": ["New York", "ZWY"],
@@ -116,11 +116,11 @@
         },
         {
           "label": ["ONL", "DA"],
-          "size":4,
+          "size": 4,
           "page": {
             "rows": 1,
             "client_page": {
-              "include": ["LP*","LECM*","NAT*","EGGX*","CZQ*","NY_*"],
+              "include": ["LP*", "LECM*", "NAT*", "EGGX*", "CZQ*", "NY_*"],
               "frequencies": "ShowAll",
               "grouping": "FirAndIcao"
             }
@@ -144,11 +144,11 @@
                 "rows": 2,
                 "keys": [
                   {
-                    "label": ["Gander","Oceanic"],
+                    "label": ["Gander", "Oceanic"],
                     "station_id": "Gander"
                   },
                   {
-                    "label": ["Gander","Delivery"],
+                    "label": ["Gander", "Delivery"],
                     "station_id": "Gander_DEL"
                   }
                 ]
@@ -166,11 +166,11 @@
                 "rows": 2,
                 "keys": [
                   {
-                    "label": ["Shanwick","Oceanic"],
+                    "label": ["Shanwick", "Oceanic"],
                     "station_id": "Shanwick"
                   },
                   {
-                    "label": ["Shanwick","Delivery"],
+                    "label": ["Shanwick", "Delivery"],
                     "station_id": "Shanwick_DEL"
                   }
                 ]
@@ -206,7 +206,7 @@
                     "label": [""]
                   },
                   {
-                    "label": ["Corvo","AFISO"],
+                    "label": ["Corvo", "AFISO"],
                     "station_id": "LPCR_I_TWR"
                   },
                   {
@@ -316,29 +316,26 @@
           "padding_top": 1.5,
           "justify_content": "space-between",
           "children": [
-           {
-              "label": ["Piarco", "TTPx","INOP"],
-              "size": 8,
-              "station_id": ""
+            {
+              "label": ["Piarco", "TTPx", "INOP"],
+              "size": 8
             },
             {
-              "label": ["Sal", "GSVC","INOP"],
-              "size": 8,
-              "station_id": ""
+              "label": ["Sal", "GSVC", "INOP"],
+              "size": 8
             }
           ]
         }
       ]
-     },   
+    },
     {
       "direction": "col",
       "padding_top": 3,
       "gap": 2,
       "children": [
         {
-          "label": ["Madrid", "LECM","INOP"],
-          "size": 8,
-          "station_id": ""
+          "label": ["Madrid", "LECM", "INOP"],
+          "size": 8
         },
         {
           "label": ["Lisboa", "LPPC"],
@@ -364,7 +361,7 @@
               },
               {
                 "label": ["North", "Lower"],
-                "station_id": "LPPO_N_CTR"
+                "station_id": "LPPC_N_CTR"
               },
               {
                 "label": ["South"],
@@ -382,9 +379,8 @@
           }
         },
         {
-          "label": ["Canaries", "GCCx","INOP"],
-          "size": 8,
-          "station_id": ""
+          "label": ["Canaries", "GCCx", "INOP"],
+          "size": 8
         }
       ]
     }
